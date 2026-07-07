@@ -46,8 +46,19 @@ npx playwright show-report
 ## Project Structure
 
 ```
-├── tests/              # Test files
-│   └── example.spec.ts # Sample test
+├── tests/               # Test files
+│   ├── api/             # API tests
+│   ├── examples/        # Example/sample tests
+│   │   └── example.spec.ts
+│   └── visual/          # Visual regression tests
+├── pages/               # Page Object Models
+│   └── components/      # Reusable page components
+├── fixtures/            # Custom test fixtures
+├── utils/               # Test utilities and helpers
+├── data/                # Test data files
+├── config/              # Configuration files
+├── .github/
+│   └── workflows/       # CI/CD pipelines
 ├── playwright.config.ts # Playwright configuration
 ├── package.json
 └── README.md
