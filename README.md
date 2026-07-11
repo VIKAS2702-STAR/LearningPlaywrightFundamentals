@@ -47,8 +47,8 @@ npx playwright show-report
 
 ```
 ├── tests/                    # Test files
-│   ├── 01_Basics/            # Playwright basics
-│   ├── 02_First_Tests/       # Writing your first tests
+│   ├── 01_Basics/            # Playwright basics (basic test, annotations)
+│   ├── 02_First_Tests/       # Writing your first tests (BCP pattern, contexts, pages, options)
 │   ├── 03_Locators_Command/  # Locators and commands
 │   ├── 04_Session_Storage/   # Session storage handling
 │   ├── 05_Allure_Reporting/  # Allure reporting integration
@@ -71,6 +71,7 @@ npx playwright show-report
 │   ├── 22_MISC_Concept/      # Miscellaneous concepts
 │   ├── 23_Advance_Framework/ # Advanced framework setup
 │   ├── Projects/             # Project-based exercises
+│   ├── Template.spec.ts      # Reusable test template
 │   └── example.spec.ts       # Example test file
 ├── playwright.config.ts      # Playwright configuration
 ├── package.json
