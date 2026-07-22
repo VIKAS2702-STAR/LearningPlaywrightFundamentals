@@ -49,7 +49,7 @@ npx playwright show-report
 ├── tests/                    # Test files
 │   ├── 01_Basics/            # Playwright basics (basic test, annotations)
 │   ├── 02_First_Tests/       # Writing your first tests (BCP, contexts, pages, options, TTA Cart + TTA Bank)
-│   ├── 03_Locators_Command/  # Locators, CSS strategies, Project VWO, XPath
+│   ├── 03_Locators_Command/  # Locators, CSS strategies, Project VWO, XPath, Playwright commands, GetByRole, pressSequential
 │   ├── 04_Session_Storage/   # Session storage handling
 │   ├── 05_Allure_Reporting/  # Allure reporting integration
 │   ├── 06_Multiple_Elements/ # Working with multiple elements

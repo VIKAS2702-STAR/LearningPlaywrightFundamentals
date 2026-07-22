@@ -1,0 +1,40 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: 03_Locators_Command\255_Project_3_Signup_Vwo.spec.ts >> Verify the signup page has an error with the incorrect email ID
+- Location: tests\03_Locators_Command\255_Project_3_Signup_Vwo.spec.ts:3:5
+
+# Error details
+
+```
+Error: locator.fill: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('#page-su-step1-v1-email')
+
+```
+
+# Test source
+
+```ts
+  1  | import { test, expect } from '@playwright/test';
+  2  | 
+  3  | test( 'Verify the signup page has an error with the incorrect email ID', async ( { page } ) => {
+  4  | 
+  5  |     await page.goto( "https://vwo.com/free-trial/" );
+  6  |     let inputBox = page.locator( "#page-su-step1-v1-email" );
+> 7  |     await inputBox.fill( "Vikas" );
+     |                    ^ Error: locator.fill: Target page, context or browser has been closed
+  8  | 
+  9  |     await page.locator( "#page-free-trial-step1-gdpr-consent-checkbox" ).click();
+  10 |     await page.locator( "['data-qa=page-su-submit']" ).click();
+  11 | 
+  12 |     let error_msg = await page.locator( "//div[contains(@class,'invalid-readon')" ).textContent();
+  13 |     expect( error_msg ).toContain( "The email address you entered is incorrect." );
+  14 | 
+  15 | } );
+```
