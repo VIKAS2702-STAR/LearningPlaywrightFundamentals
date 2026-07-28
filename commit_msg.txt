@@ -1,3 +1,0 @@
-Update README with new test files in Locators_Command module
-
-Co-authored-by: CommandCodeBot <noreply@commandcode.ai>

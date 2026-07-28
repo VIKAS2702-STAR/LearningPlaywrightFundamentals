@@ -1,0 +1,4 @@
+✅ Saved session loaded — user is authenticated
+🌐 Navigated to VWO Dashboard
+✅ Dashboard page is displayed — no login prompt appeared
+👀 Observed Dashboard for 3 seconds

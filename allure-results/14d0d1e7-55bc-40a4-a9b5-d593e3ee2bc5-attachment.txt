@@ -1,0 +1,4 @@
+✅ Using existing saved session — skipping VWO login
+🌐 Navigated to VWO Settings
+✅ Settings page is displayed — user is still logged in
+👀 Observed Settings page for 3 seconds
