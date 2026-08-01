@@ -53,7 +53,7 @@ npx playwright show-report
 │   ├── 04_Session_Storage/   # Session storage handling
 │   ├── 05_Allure_Reporting/  # Allure reporting integration
 │   ├── 06_Multiple_Elements/ # Working with multiple elements (264_Multi_Element — iterate and filter list items)
-│   ├── 07_WebTables/         # Web table interactions
+│   ├── 07_WebTables/         # Web table interactions (267_WebTables_Dynamic_Xpath — dynamic XPath grid traversal; 268_WebTables_Dynamic — structured row extraction)
 │   ├── 08_Web_Select_Frames_Iframe/ # Select, frames, iframes
 │   ├── 09_Frame_Iframe/      # Frame and iframe handling
 │   ├── 10_Keyboard_Hover_Drag_Drop/ # Keyboard, hover, drag & drop
